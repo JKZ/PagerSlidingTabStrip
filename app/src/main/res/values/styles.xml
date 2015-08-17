@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="actionBarStyle">@style/CustomStyleActionBar</item>
+    </style>
+
+    <style name="CustomStyleActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:elevation" tools:ignore="NewApi">0dp</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+</resources>

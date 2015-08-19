@@ -88,7 +88,7 @@ your brand:
 
 ### 1.0.2
 
- * Material design riple effect support in Android 5.0+.
+ * Material design ripple effect support in Android 5.0+.
  * Tab's text color can be set as state list.
 
 ### [1.0.1](https://github.com/astuetz/PagerSlidingTabStrip/tree/v1.0.1)

@@ -102,7 +102,7 @@ your brand:
 # Developed By
 
  * Andreas Stuetz - <andreas.stuetz@gmail.com>
- * Kevin - <Kevin.D.Zhong@gmail.com>
+ * Kevin Zhong - <Kevin.D.Zhong@gmail.com>
 
 ### Credits
 

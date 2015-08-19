@@ -8,8 +8,8 @@ android {
         applicationId "com.astuetz.viewpager.extensions.sample"
         minSdkVersion 14
         targetSdkVersion 22
-        versionCode 1
-        versionName "1.0"
+        versionCode 10002
+        versionName "1.0.2"
     }
     buildTypes {
         release {

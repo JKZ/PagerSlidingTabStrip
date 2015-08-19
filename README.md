@@ -86,7 +86,10 @@ your brand:
 
 # Changelog
 
-### Current Version: 1.0.1
+### 1.0.2
+
+ * Material design riple effect support in Android 5.0+.
+ * Tab's text color can be set as state list.
 
 ### [1.0.1](https://github.com/astuetz/PagerSlidingTabStrip/tree/v1.0.1)
 
@@ -95,10 +98,11 @@ your brand:
  * [#37](https://github.com/astuetz/PagerSlidingTabStrip/pull/37), [#41](https://github.com/astuetz/PagerSlidingTabStrip/pull/41) Added `psts` prefix to all attributes in `attrs.xml`
  * [#46](https://github.com/astuetz/PagerSlidingTabStrip/pull/46) Changed the shouldExpand behavior to set the layout at the time the tab is added
 
+
 # Developed By
 
  * Andreas Stuetz - <andreas.stuetz@gmail.com>
-
+ * Kevin - <Kevin.D.Zhong@gmail.com>
 
 ### Credits
 

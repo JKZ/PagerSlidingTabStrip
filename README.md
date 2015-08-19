@@ -3,8 +3,6 @@
 Interactive paging indicator widget, compatible with the `ViewPager` from the 
 Android Support Library. 
 
-Try out the sample application [on the Play Store](https://play.google.com/store/apps/details?id=com.astuetz.viewpager.extensions.sample).
-
 ![PagerSlidingTabStrip Sample Screenshot 1](screenshots/blue.png)   ![PagerSlidingTabStrip Sample Screenshot 2](screenshots/green.png)
 
 # Usage
@@ -60,6 +58,31 @@ your brand:
  * `pstsTextAllCaps` If true, all tab titles will be upper case, default true
 
 *All attributes have their respective getters and setters to change them at runtime*
+
+# Customization of Text color (New)
+
+  1. New file drawable/tab_text_colors.xml
+
+        <?xml version="1.0" encoding="utf-8"?>
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:color="@color/tab_text_selected" android:state_pressed="true" />
+            <item android:color="@color/tab_text_selected" android:state_selected="true" />
+            <item android:color="@color/tab_text_default" />
+        </selector>
+
+  1. Set the color selector in layout XML.
+
+        <com.astuetz.PagerSlidingTabStrip
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="48dip"
+            android:background="@drawable/background_tabs"
+            android:textColor="@drawable/tab_text_colors" />
+
+    *OR set in Java code.*
+
+        tabs.setTextColorResource(R.drawable.tab_text_colors);
+
 
 # Changelog
 
